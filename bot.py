@@ -4,6 +4,7 @@ import json
 import logging
 import difflib
 import telebot
+from telebot.types import InputMediaPhoto
 import requests
 import io
 from PIL import Image
@@ -104,6 +105,8 @@ def handle_message(message):
         return
     
     # Process each embedded [[ card name ]] request
+    media_group = []
+    
     for match in matches:
         match_str = match.strip()
         
@@ -120,29 +123,40 @@ def handle_message(message):
 
         # Validate against known cards if cards.json is loaded successfully
         if VALID_CARDS and slug not in VALID_CARDS:
-            matches = difflib.get_close_matches(slug, VALID_CARDS, n=1, cutoff=0.6)
-            if not matches:
+            matches_found = difflib.get_close_matches(slug, VALID_CARDS, n=1, cutoff=0.6)
+            if not matches_found:
                 bot.reply_to(message, f"Card not found: `{slug}`", parse_mode='Markdown')
                 continue
             else:
-                closest_slug = matches[0]
+                closest_slug = matches_found[0]
                 slug = closest_slug
 
         # Construct Image URL based on upgraded state
         suffix = "-upgraded" if is_upgraded else ""
         image_url = f"{BASE_URL}{slug}{suffix}.png"
         
-        logger.info(f"Sending card: {slug} (Upgraded: {is_upgraded}) to chat {message.chat.id}")
+        logger.info(f"Adding card: {slug} (Upgraded: {is_upgraded}) to media group.")
         
         try:
             processed_image = fetch_and_process_image(image_url)
-            bot.send_photo(
-                chat_id=message.chat.id,
-                photo=processed_image,
+            # InputMediaPhoto requires the name or bytes stream
+            media_group.append(
+                InputMediaPhoto(media=processed_image)
             )
         except Exception as e:
-            logger.error(f"Failed to send image for {slug}: {e}")
+            logger.error(f"Failed to process image for {slug}: {e}")
             bot.reply_to(message, f"Failed to retrieve image for {slug}. It may not exist on GitHub.")
+            
+        # Telegram limits media groups to 10 items
+        if len(media_group) == 10:
+            break
+
+    if media_group:
+        try:
+            bot.send_media_group(chat_id=message.chat.id, media=media_group)
+        except Exception as e:
+            logger.error(f"Failed to send media group: {e}")
+            bot.reply_to(message, "Failed to send the group of images.")
 
 if __name__ == '__main__':
     logger.info("Bot is starting up and polling for messages...")
