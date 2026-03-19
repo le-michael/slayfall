@@ -70,13 +70,20 @@ fly secrets set TELEGRAM_BOT_TOKEN="your_token_here"
 ```
 
 4. **Deploy**:
-Because this bot uses "long polling" (constantly checking Telegram for messages), **you can ONLY run exactly 1 machine at a time**. If you run 2 machines, they will crash each other with 409 API Conflicts.
-Run this command to strictly deploy a single instance:
+Because this bot uses Fly.io's auto-stop routing and Flask-based Telegram Webhooks, it will automatically route incoming messages, wake up a machine when needed, and scale to zero when idle!
+Simply run:
 ```bash
-fly deploy --ha=false
+fly deploy
 ```
 
-5. **Scaling & Managing**:
+5. **Webhook Initialization (Optional Manual Fallback)**:
+The bot script automatically attempts to register your Webhook with Telegram's API upon booting up. However, if it fails or if you want to set it manually, open your terminal and run:
+```bash
+curl "https://api.telegram.org/bot<YOUR_TELEGRAM_BOT_TOKEN>/setWebhook?url=https://slayfall.fly.dev/<YOUR_TELEGRAM_BOT_TOKEN>"
+```
+*(Replace `<YOUR_TELEGRAM_BOT_TOKEN>` in both places with your actual BotFather token).*
+
+6. **Scaling & Managing**:
 - See logs: `fly logs`
-- Bring down the bot entirely: `fly scale count 0`
-- Restart the bot: `fly apps restart`
+- Change scaling limits: `fly scale`
+- Restart the bot manually: `fly apps restart`

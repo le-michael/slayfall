@@ -9,9 +9,13 @@ import requests
 import io
 from PIL import Image
 from dotenv import load_dotenv
+from flask import Flask, request
 
 # Load .env variables
 load_dotenv()
+
+# Initialize Flask app
+app = Flask(__name__)
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -158,6 +162,31 @@ def handle_message(message):
             logger.error(f"Failed to send media group: {e}")
             bot.reply_to(message, "Failed to send the group of images.")
 
+# Webhook endpoint receiving updates from Telegram
+@app.route(f"/{BOT_TOKEN}", methods=['POST'])
+def webhook():
+    if request.headers.get('content-type') == 'application/json':
+        json_string = request.get_data().decode('utf-8')
+        update = telebot.types.Update.de_json(json_string)
+        bot.process_new_updates([update])
+        return '', 200
+    return 'Unsupported Media Type', 415
+
 if __name__ == '__main__':
-    logger.info("Bot is starting up and polling for messages...")
-    bot.infinity_polling()
+    fly_app = os.environ.get('FLY_APP_NAME')
+    
+    if fly_app:
+        # Fly.io webhook deployment
+        webhook_url = f"https://{fly_app}.fly.dev/{BOT_TOKEN}"
+        logger.info(f"Detected Fly environment. Setting webhook URL to: {webhook_url}")
+        
+        bot.remove_webhook()
+        bot.set_webhook(url=webhook_url)
+        
+        # Start Flask server
+        app.run(host='0.0.0.0', port=8080)
+    else:
+        # Local development fallback
+        logger.info("No FLY_APP_NAME detected. Starting local infinity polling...")
+        bot.remove_webhook()
+        bot.infinity_polling()
