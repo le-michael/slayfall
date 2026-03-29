@@ -1,0 +1,2298 @@
+[
+    {
+        "link": "https://sts2.untapped.gg/en/relics/black-blood",
+        "relic_name": "black-blood",
+        "effect": "At the end of combat, heal 12 HP.",
+        "pool": "ironclad",
+        "rarity": "starter",
+        "img_url": "https://sts2json.untapped.gg/art/relics/black_blood.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/amethyst-aubergine",
+        "relic_name": "amethyst-aubergine",
+        "effect": "Enemies drop 10 additional Gold.",
+        "pool": "colorless",
+        "rarity": "common",
+        "img_url": "https://sts2json.untapped.gg/art/relics/amethyst_aubergine.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/anchor",
+        "relic_name": "anchor",
+        "effect": "Start each combat with 10 Block.",
+        "pool": "colorless",
+        "rarity": "common",
+        "img_url": "https://sts2json.untapped.gg/art/relics/anchor.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/bag-of-preparation",
+        "relic_name": "bag-of-preparation",
+        "effect": "At the start of each combat, draw 2 additional cards.",
+        "pool": "colorless",
+        "rarity": "common",
+        "img_url": "https://sts2json.untapped.gg/art/relics/bag_of_preparation.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/akabeko",
+        "relic_name": "akabeko",
+        "effect": "At the start of each combat, gain 8 Vigor.",
+        "pool": "colorless",
+        "rarity": "uncommon",
+        "img_url": "https://sts2json.untapped.gg/art/relics/akabeko.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/bag-of-marbles",
+        "relic_name": "bag-of-marbles",
+        "effect": "At the start of each combat, apply 1 Vulnerable to ALL enemies.",
+        "pool": "colorless",
+        "rarity": "uncommon",
+        "img_url": "https://sts2json.untapped.gg/art/relics/bag_of_marbles.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/bellows",
+        "relic_name": "bellows",
+        "effect": "The first Hand you draw each combat is Upgraded.",
+        "pool": "colorless",
+        "rarity": "uncommon",
+        "img_url": "https://sts2json.untapped.gg/art/relics/bellows.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/art-of-war",
+        "relic_name": "art-of-war",
+        "effect": "If you do not play any Attacks during your turn, gain an additional 1 Energy next turn.",
+        "pool": "colorless",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/art_of_war.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/beating-remnant",
+        "relic_name": "beating-remnant",
+        "effect": "You cannot lose more than 20 HP in a single turn.",
+        "pool": "colorless",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/beating_remnant.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/big-hat",
+        "relic_name": "big-hat",
+        "effect": "At the start of each combat, add 2 random Ethereal cards into your Hand.",
+        "pool": "necrobinder",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/big_hat.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/belt-buckle",
+        "relic_name": "belt-buckle",
+        "effect": "While you have no potions, you have 2 additional Dexterity.",
+        "pool": "colorless",
+        "rarity": "shop",
+        "img_url": "https://sts2json.untapped.gg/art/relics/belt_buckle.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/big-mushroom",
+        "relic_name": "big-mushroom",
+        "effect": "Upon pickup, raise your Max HP by 20. At the start of each combat, draw 2 fewer cards.",
+        "pool": "colorless",
+        "rarity": "event",
+        "img_url": "https://sts2json.untapped.gg/art/relics/big_mushroom.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/bing-bong",
+        "relic_name": "bing-bong",
+        "effect": "Whenever you add a card to your Deck, add one additional copy.",
+        "pool": "colorless",
+        "rarity": "event",
+        "img_url": "https://sts2json.untapped.gg/art/relics/bing_bong.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/alchemical-coffer",
+        "relic_name": "alchemical-coffer",
+        "effect": "Upon pickup, gain 4 potion slots filled with random potions.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/alchemical_coffer.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/arcane-scroll",
+        "relic_name": "arcane-scroll",
+        "effect": "Upon pickup, obtain a random Rare Card to add to your Deck.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/arcane_scroll.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/archaic-tooth",
+        "relic_name": "archaic-tooth",
+        "effect": "Upon pickup, Transform a starter card with an ancient version.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/archaic_tooth.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/astrolabe",
+        "relic_name": "astrolabe",
+        "effect": "Upon pickup, Transform 3 cards, then Upgrade them.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/astrolabe.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/beautiful-bracelet",
+        "relic_name": "beautiful-bracelet",
+        "effect": "Upon pickup, choose 3 cards in your Deck. Enchant them with Swift 3.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/beautiful_bracelet.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/biiig-hug",
+        "relic_name": "biiig-hug",
+        "effect": "Upon pickup, remove 4 cards from your Deck. Whenever you shuffle your Draw Pile, add a Soot into your Draw Pile.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/biiig_hug.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/black-star",
+        "relic_name": "black-star",
+        "effect": "Elites drop an additional Relic when defeated.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/black_star.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/bound-phylactery",
+        "relic_name": "bound-phylactery",
+        "effect": "At the start of your turn, Summon 1.",
+        "pool": "necrobinder",
+        "rarity": "starter",
+        "img_url": "https://sts2json.untapped.gg/art/relics/bound_phylactery.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/burning-blood",
+        "relic_name": "burning-blood",
+        "effect": "At the end of combat, heal 6 HP.",
+        "pool": "ironclad",
+        "rarity": "starter",
+        "img_url": "https://sts2json.untapped.gg/art/relics/burning_blood.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/cracked-core",
+        "relic_name": "cracked-core",
+        "effect": "At the start of each combat, Channel 1 Lightning.",
+        "pool": "defect",
+        "rarity": "starter",
+        "img_url": "https://sts2json.untapped.gg/art/relics/cracked_core.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/divine-destiny",
+        "relic_name": "divine-destiny",
+        "effect": "At the start of each combat, gain 6 Stars.",
+        "pool": "regent",
+        "rarity": "starter",
+        "img_url": "https://sts2json.untapped.gg/art/relics/divine_destiny.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/divine-right",
+        "relic_name": "divine-right",
+        "effect": "At the start of each combat, gain 3 Stars.",
+        "pool": "regent",
+        "rarity": "starter",
+        "img_url": "https://sts2json.untapped.gg/art/relics/divine_right.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/blood-vial",
+        "relic_name": "blood-vial",
+        "effect": "At the start of each combat, heal 2 HP.",
+        "pool": "colorless",
+        "rarity": "common",
+        "img_url": "https://sts2json.untapped.gg/art/relics/blood_vial.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/bone-flute",
+        "relic_name": "bone-flute",
+        "effect": "Whenever Osty attacks, gain 2 Block.",
+        "pool": "necrobinder",
+        "rarity": "common",
+        "img_url": "https://sts2json.untapped.gg/art/relics/bone_flute.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/book-of-five-rings",
+        "relic_name": "book-of-five-rings",
+        "effect": "Every 5 cards you add to your Deck, heal 15 HP.",
+        "pool": "colorless",
+        "rarity": "common",
+        "img_url": "https://sts2json.untapped.gg/art/relics/book_of_five_rings.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/book-repair-knife",
+        "relic_name": "book-repair-knife",
+        "effect": "Whenever a non-Minion enemy dies to Doom, heal 3 HP.",
+        "pool": "necrobinder",
+        "rarity": "uncommon",
+        "img_url": "https://sts2json.untapped.gg/art/relics/book_repair_knife.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/bowler-hat",
+        "relic_name": "bowler-hat",
+        "effect": "Gain 20% additional Gold.",
+        "pool": "colorless",
+        "rarity": "uncommon",
+        "img_url": "https://sts2json.untapped.gg/art/relics/bowler_hat.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/candelabra",
+        "relic_name": "candelabra",
+        "effect": "At the start of your 2nd turn, gain 2 Energy.",
+        "pool": "colorless",
+        "rarity": "uncommon",
+        "img_url": "https://sts2json.untapped.gg/art/relics/candelabra.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/bookmark",
+        "relic_name": "bookmark",
+        "effect": "At the end of each turn, lower the cost of a random Retained card by 1 until played.",
+        "pool": "necrobinder",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/bookmark.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/captains-wheel",
+        "relic_name": "captains-wheel",
+        "effect": "At the start of your 3rd turn, gain 18 Block.",
+        "pool": "colorless",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/captains_wheel.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/chandelier",
+        "relic_name": "chandelier",
+        "effect": "At the start of your 3rd turn, gain 3 Energy.",
+        "pool": "colorless",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/chandelier.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/bread",
+        "relic_name": "bread",
+        "effect": "At the start of your first turn, lose 2 Energy. At the start of all other turns, gain 1 Energy.",
+        "pool": "colorless",
+        "rarity": "shop",
+        "img_url": "https://sts2json.untapped.gg/art/relics/bread.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/brimstone",
+        "relic_name": "brimstone",
+        "effect": "At the start of your turn, gain 2 Strength and ALL enemies gain 1 Strength.",
+        "pool": "ironclad",
+        "rarity": "shop",
+        "img_url": "https://sts2json.untapped.gg/art/relics/brimstone.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/burning-sticks",
+        "relic_name": "burning-sticks",
+        "effect": "The first time each combat you Exhaust a Skill, add a copy of it into your Hand.",
+        "pool": "colorless",
+        "rarity": "shop",
+        "img_url": "https://sts2json.untapped.gg/art/relics/burning_sticks.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/cauldron",
+        "relic_name": "cauldron",
+        "effect": "Upon pickup, brews 5 random potions.",
+        "pool": "colorless",
+        "rarity": "shop",
+        "img_url": "https://sts2json.untapped.gg/art/relics/cauldron.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/chemical-x",
+        "relic_name": "chemical-x",
+        "effect": "The effects of your cost X cards are increased by 2.",
+        "pool": "colorless",
+        "rarity": "shop",
+        "img_url": "https://sts2json.untapped.gg/art/relics/chemical_x.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/fake-anchor",
+        "relic_name": "fake-anchor",
+        "effect": "Start each combat with 4 Block.",
+        "pool": "colorless",
+        "rarity": "event",
+        "img_url": "https://sts2json.untapped.gg/art/relics/fake_anchor.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/fake-blood-vial",
+        "relic_name": "fake-blood-vial",
+        "effect": "At the start of each combat, heal 1 HP.",
+        "pool": "colorless",
+        "rarity": "event",
+        "img_url": "https://sts2json.untapped.gg/art/relics/fake_blood_vial.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/bone-tea",
+        "relic_name": "bone-tea",
+        "effect": "At the start of the next combat, Upgrade your starting hand.",
+        "pool": "colorless",
+        "rarity": "event",
+        "img_url": "https://sts2json.untapped.gg/art/relics/bone_tea.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/byrdpip",
+        "relic_name": "byrdpip",
+        "effect": "Upon pickup, gain the card Byrd Swoop. A Byrdpip will accompany you in battles.",
+        "pool": "colorless",
+        "rarity": "event",
+        "img_url": "https://sts2json.untapped.gg/art/relics/byrdpip.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/infused-core",
+        "relic_name": "infused-core",
+        "effect": "At the start of each combat, Channel 3 Lightning.",
+        "pool": "defect",
+        "rarity": "starter",
+        "img_url": "https://sts2json.untapped.gg/art/relics/infused_core.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/phylactery-unbound",
+        "relic_name": "phylactery-unbound",
+        "effect": "At the start of each combat, Summon 5. At the start of your turn, Summon 2.",
+        "pool": "necrobinder",
+        "rarity": "starter",
+        "img_url": "https://sts2json.untapped.gg/art/relics/phylactery_unbound.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/ring-of-the-drake",
+        "relic_name": "ring-of-the-drake",
+        "effect": "At the start of your first 3 turns, draw 2 additional cards.",
+        "pool": "silent",
+        "rarity": "starter",
+        "img_url": "https://sts2json.untapped.gg/art/relics/ring_of_the_drake.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/ring-of-the-snake",
+        "relic_name": "ring-of-the-snake",
+        "effect": "At the start of each combat, draw 2 additional cards.",
+        "pool": "silent",
+        "rarity": "starter",
+        "img_url": "https://sts2json.untapped.gg/art/relics/ring_of_the_snake.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/bronze-scales",
+        "relic_name": "bronze-scales",
+        "effect": "Start each combat with 3 Thorns.",
+        "pool": "colorless",
+        "rarity": "common",
+        "img_url": "https://sts2json.untapped.gg/art/relics/bronze_scales.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/centennial-puzzle",
+        "relic_name": "centennial-puzzle",
+        "effect": "The first time you lose HP each combat, draw 3 cards.",
+        "pool": "colorless",
+        "rarity": "common",
+        "img_url": "https://sts2json.untapped.gg/art/relics/centennial_puzzle.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/data-disk",
+        "relic_name": "data-disk",
+        "effect": "Start each combat with 1 Focus.",
+        "pool": "defect",
+        "rarity": "common",
+        "img_url": "https://sts2json.untapped.gg/art/relics/data_disk.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/fencing-manual",
+        "relic_name": "fencing-manual",
+        "effect": "At the start of each combat, Forge 10.",
+        "pool": "regent",
+        "rarity": "common",
+        "img_url": "https://sts2json.untapped.gg/art/relics/fencing_manual.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/festive-popper",
+        "relic_name": "festive-popper",
+        "effect": "At the start of each combat, deal 9 damage to ALL enemies.",
+        "pool": "colorless",
+        "rarity": "common",
+        "img_url": "https://sts2json.untapped.gg/art/relics/festive_popper.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/gorget",
+        "relic_name": "gorget",
+        "effect": "At the start of each combat, gain 4 Plating.",
+        "pool": "colorless",
+        "rarity": "common",
+        "img_url": "https://sts2json.untapped.gg/art/relics/gorget.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/happy-flower",
+        "relic_name": "happy-flower",
+        "effect": "Every 3 turns, gain 1 Energy.",
+        "pool": "colorless",
+        "rarity": "common",
+        "img_url": "https://sts2json.untapped.gg/art/relics/happy_flower.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/juzu-bracelet",
+        "relic_name": "juzu-bracelet",
+        "effect": "Regular enemy combats are no longer encountered in ? rooms.",
+        "pool": "colorless",
+        "rarity": "common",
+        "img_url": "https://sts2json.untapped.gg/art/relics/juzu_bracelet.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/lantern",
+        "relic_name": "lantern",
+        "effect": "Start each combat with an additional 1 Energy.",
+        "pool": "colorless",
+        "rarity": "common",
+        "img_url": "https://sts2json.untapped.gg/art/relics/lantern.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/meal-ticket",
+        "relic_name": "meal-ticket",
+        "effect": "Whenever you enter a shop room, heal 15 HP.",
+        "pool": "colorless",
+        "rarity": "common",
+        "img_url": "https://sts2json.untapped.gg/art/relics/meal_ticket.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/oddly-smooth-stone",
+        "relic_name": "oddly-smooth-stone",
+        "effect": "Start each combat with 1 Dexterity.",
+        "pool": "colorless",
+        "rarity": "common",
+        "img_url": "https://sts2json.untapped.gg/art/relics/oddly_smooth_stone.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/pendulum",
+        "relic_name": "pendulum",
+        "effect": "Whenever you shuffle your Draw Pile, draw a card.",
+        "pool": "colorless",
+        "rarity": "common",
+        "img_url": "https://sts2json.untapped.gg/art/relics/pendulum.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/permafrost",
+        "relic_name": "permafrost",
+        "effect": "The first time you play a Power each combat, gain 6 Block.",
+        "pool": "colorless",
+        "rarity": "common",
+        "img_url": "https://sts2json.untapped.gg/art/relics/permafrost.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/potion-belt",
+        "relic_name": "potion-belt",
+        "effect": "Upon pickup, gain 2 potion slots.",
+        "pool": "colorless",
+        "rarity": "common",
+        "img_url": "https://sts2json.untapped.gg/art/relics/potion_belt.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/red-skull",
+        "relic_name": "red-skull",
+        "effect": "While your HP is at or below 50%, you have 3 additional Strength.",
+        "pool": "ironclad",
+        "rarity": "common",
+        "img_url": "https://sts2json.untapped.gg/art/relics/red_skull.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/regal-pillow",
+        "relic_name": "regal-pillow",
+        "effect": "Whenever you Rest, heal an additional 15 HP.",
+        "pool": "colorless",
+        "rarity": "common",
+        "img_url": "https://sts2json.untapped.gg/art/relics/regal_pillow.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/snecko-skull",
+        "relic_name": "snecko-skull",
+        "effect": "Whenever you apply Poison, apply an additional 1 Poison.",
+        "pool": "silent",
+        "rarity": "common",
+        "img_url": "https://sts2json.untapped.gg/art/relics/snecko_skull.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/strawberry",
+        "relic_name": "strawberry",
+        "effect": "Upon pickup, raise your Max HP by 7.",
+        "pool": "colorless",
+        "rarity": "common",
+        "img_url": "https://sts2json.untapped.gg/art/relics/strawberry.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/strike-dummy",
+        "relic_name": "strike-dummy",
+        "effect": "Cards containing \u201cStrike\u201d deal 3 additional damage.",
+        "pool": "colorless",
+        "rarity": "common",
+        "img_url": "https://sts2json.untapped.gg/art/relics/strike_dummy.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/tiny-mailbox",
+        "relic_name": "tiny-mailbox",
+        "effect": "Whenever you Rest, procure a random potion.",
+        "pool": "colorless",
+        "rarity": "common",
+        "img_url": "https://sts2json.untapped.gg/art/relics/tiny_mailbox.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/vajra",
+        "relic_name": "vajra",
+        "effect": "Start each combat with 1 Strength.",
+        "pool": "colorless",
+        "rarity": "common",
+        "img_url": "https://sts2json.untapped.gg/art/relics/vajra.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/venerable-tea-set",
+        "relic_name": "venerable-tea-set",
+        "effect": "Whenever you enter a Rest Site, start the next combat with an additional 2 Energy.",
+        "pool": "colorless",
+        "rarity": "common",
+        "img_url": "https://sts2json.untapped.gg/art/relics/venerable_tea_set.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/war-paint",
+        "relic_name": "war-paint",
+        "effect": "Upon pickup, Upgrade 2 random Skills.",
+        "pool": "colorless",
+        "rarity": "common",
+        "img_url": "https://sts2json.untapped.gg/art/relics/war_paint.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/whetstone",
+        "relic_name": "whetstone",
+        "effect": "Upon pickup, Upgrade 2 random Attacks.",
+        "pool": "colorless",
+        "rarity": "common",
+        "img_url": "https://sts2json.untapped.gg/art/relics/whetstone.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/eternal-feather",
+        "relic_name": "eternal-feather",
+        "effect": "For every 5 cards in your Deck, heal 3 HP whenever you enter a Rest Site.",
+        "pool": "colorless",
+        "rarity": "uncommon",
+        "img_url": "https://sts2json.untapped.gg/art/relics/eternal_feather.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/funerary-mask",
+        "relic_name": "funerary-mask",
+        "effect": "At the start of each combat, add 3 Souls into your Draw Pile.",
+        "pool": "necrobinder",
+        "rarity": "uncommon",
+        "img_url": "https://sts2json.untapped.gg/art/relics/funerary_mask.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/galactic-dust",
+        "relic_name": "galactic-dust",
+        "effect": "For every 10 1 Star spent, gain 10 Block.",
+        "pool": "regent",
+        "rarity": "uncommon",
+        "img_url": "https://sts2json.untapped.gg/art/relics/galactic_dust.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/gold-plated-cables",
+        "relic_name": "gold-plated-cables",
+        "effect": "Your rightmost Orb triggers its passive an additional time.",
+        "pool": "defect",
+        "rarity": "uncommon",
+        "img_url": "https://sts2json.untapped.gg/art/relics/gold_plated_cables.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/gremlin-horn",
+        "relic_name": "gremlin-horn",
+        "effect": "Whenever an enemy dies, gain 1 Energy and draw 1 card.",
+        "pool": "colorless",
+        "rarity": "uncommon",
+        "img_url": "https://sts2json.untapped.gg/art/relics/gremlin_horn.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/horn-cleat",
+        "relic_name": "horn-cleat",
+        "effect": "At the start of your 2nd turn, gain 14 Block.",
+        "pool": "colorless",
+        "rarity": "uncommon",
+        "img_url": "https://sts2json.untapped.gg/art/relics/horn_cleat.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/joss-paper",
+        "relic_name": "joss-paper",
+        "effect": "Every 5 times you Exhaust a card, draw 1 card.",
+        "pool": "colorless",
+        "rarity": "uncommon",
+        "img_url": "https://sts2json.untapped.gg/art/relics/joss_paper.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/kusarigama",
+        "relic_name": "kusarigama",
+        "effect": "Every time you play 3 Attacks in a single turn, deal 6 damage to a random enemy.",
+        "pool": "colorless",
+        "rarity": "uncommon",
+        "img_url": "https://sts2json.untapped.gg/art/relics/kusarigama.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/letter-opener",
+        "relic_name": "letter-opener",
+        "effect": "Every time you play 3 Skills in a single turn, deal 5 damage to ALL enemies.",
+        "pool": "colorless",
+        "rarity": "uncommon",
+        "img_url": "https://sts2json.untapped.gg/art/relics/letter_opener.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/lucky-fysh",
+        "relic_name": "lucky-fysh",
+        "effect": "Whenever you add a card to your Deck, gain 15 Gold.",
+        "pool": "colorless",
+        "rarity": "uncommon",
+        "img_url": "https://sts2json.untapped.gg/art/relics/lucky_fysh.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/mercury-hourglass",
+        "relic_name": "mercury-hourglass",
+        "effect": "At the start of your turn, deal 3 damage to ALL enemies.",
+        "pool": "colorless",
+        "rarity": "uncommon",
+        "img_url": "https://sts2json.untapped.gg/art/relics/mercury_hourglass.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/miniature-cannon",
+        "relic_name": "miniature-cannon",
+        "effect": "Upgraded Attacks deal 3 additional damage.",
+        "pool": "colorless",
+        "rarity": "uncommon",
+        "img_url": "https://sts2json.untapped.gg/art/relics/miniature_cannon.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/nunchaku",
+        "relic_name": "nunchaku",
+        "effect": "Every time you play 10 Attacks, gain 1 Energy.",
+        "pool": "colorless",
+        "rarity": "uncommon",
+        "img_url": "https://sts2json.untapped.gg/art/relics/nunchaku.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/orichalcum",
+        "relic_name": "orichalcum",
+        "effect": "If you end your turn without Block, gain 6 Block.",
+        "pool": "colorless",
+        "rarity": "uncommon",
+        "img_url": "https://sts2json.untapped.gg/art/relics/orichalcum.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/ornamental-fan",
+        "relic_name": "ornamental-fan",
+        "effect": "Every time you play 3 Attacks in a single turn, gain 4 Block.",
+        "pool": "colorless",
+        "rarity": "uncommon",
+        "img_url": "https://sts2json.untapped.gg/art/relics/ornamental_fan.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/pantograph",
+        "relic_name": "pantograph",
+        "effect": "At the start of each Boss combat, heal 25 HP.",
+        "pool": "colorless",
+        "rarity": "uncommon",
+        "img_url": "https://sts2json.untapped.gg/art/relics/pantograph.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/paper-phrog",
+        "relic_name": "paper-phrog",
+        "effect": "Enemies with Vulnerable take 75% more damage rather than 50%.",
+        "pool": "ironclad",
+        "rarity": "uncommon",
+        "img_url": "https://sts2json.untapped.gg/art/relics/paper_phrog.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/parrying-shield",
+        "relic_name": "parrying-shield",
+        "effect": "If you end a turn with at least 10 Block, deal 6 damage to a random enemy.",
+        "pool": "colorless",
+        "rarity": "uncommon",
+        "img_url": "https://sts2json.untapped.gg/art/relics/parrying_shield.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/pear",
+        "relic_name": "pear",
+        "effect": "Upon pickup, raise your Max HP by 10.",
+        "pool": "colorless",
+        "rarity": "uncommon",
+        "img_url": "https://sts2json.untapped.gg/art/relics/pear.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/pen-nib",
+        "relic_name": "pen-nib",
+        "effect": "Every 10th Attack you play deals double damage.",
+        "pool": "colorless",
+        "rarity": "uncommon",
+        "img_url": "https://sts2json.untapped.gg/art/relics/pen_nib.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/petrified-toad",
+        "relic_name": "petrified-toad",
+        "effect": "At the start of each combat, procure a Potion-Shaped Rock.",
+        "pool": "colorless",
+        "rarity": "uncommon",
+        "img_url": "https://sts2json.untapped.gg/art/relics/petrified_toad.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/planisphere",
+        "relic_name": "planisphere",
+        "effect": "Whenever you enter a ? room, heal 4 HP.",
+        "pool": "colorless",
+        "rarity": "uncommon",
+        "img_url": "https://sts2json.untapped.gg/art/relics/planisphere.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/red-mask",
+        "relic_name": "red-mask",
+        "effect": "At the start of each combat, apply 1 Weak to ALL enemies.",
+        "pool": "colorless",
+        "rarity": "uncommon",
+        "img_url": "https://sts2json.untapped.gg/art/relics/red_mask.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/regalite",
+        "relic_name": "regalite",
+        "effect": "Whenever you create a Colorless card, gain 2 Block.",
+        "pool": "regent",
+        "rarity": "uncommon",
+        "img_url": "https://sts2json.untapped.gg/art/relics/regalite.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/reptile-trinket",
+        "relic_name": "reptile-trinket",
+        "effect": "Whenever you use a potion, gain 3 Strength this turn.",
+        "pool": "colorless",
+        "rarity": "uncommon",
+        "img_url": "https://sts2json.untapped.gg/art/relics/reptile_trinket.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/ripple-basin",
+        "relic_name": "ripple-basin",
+        "effect": "If you did not play any Attacks during your turn, gain 4 Block.",
+        "pool": "colorless",
+        "rarity": "uncommon",
+        "img_url": "https://sts2json.untapped.gg/art/relics/ripple_basin.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/self-forming-clay",
+        "relic_name": "self-forming-clay",
+        "effect": "Whenever you lose HP in combat, gain 3 Block next turn.",
+        "pool": "ironclad",
+        "rarity": "uncommon",
+        "img_url": "https://sts2json.untapped.gg/art/relics/self_forming_clay.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/sparkling-rouge",
+        "relic_name": "sparkling-rouge",
+        "effect": "At the start of your 3rd turn, gain 1 Strength and 1 Dexterity.",
+        "pool": "colorless",
+        "rarity": "uncommon",
+        "img_url": "https://sts2json.untapped.gg/art/relics/sparkling_rouge.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/stone-cracker",
+        "relic_name": "stone-cracker",
+        "effect": "At the start of Boss combats, Upgrade 3 random cards in your Draw Pile for the rest of combat.",
+        "pool": "colorless",
+        "rarity": "uncommon",
+        "img_url": "https://sts2json.untapped.gg/art/relics/stone_cracker.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/symbiotic-virus",
+        "relic_name": "symbiotic-virus",
+        "effect": "At the start of each combat, Channel 1 Dark.",
+        "pool": "defect",
+        "rarity": "uncommon",
+        "img_url": "https://sts2json.untapped.gg/art/relics/symbiotic_virus.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/tingsha",
+        "relic_name": "tingsha",
+        "effect": "Whenever you discard a card during your turn, deal 3 damage to a random enemy for each card discarded.",
+        "pool": "silent",
+        "rarity": "uncommon",
+        "img_url": "https://sts2json.untapped.gg/art/relics/tingsha.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/tuning-fork",
+        "relic_name": "tuning-fork",
+        "effect": "Every time you play 10 Skills, gain 7 Block.",
+        "pool": "colorless",
+        "rarity": "uncommon",
+        "img_url": "https://sts2json.untapped.gg/art/relics/tuning_fork.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/twisted-funnel",
+        "relic_name": "twisted-funnel",
+        "effect": "At the start of each combat, apply 4 Poison to ALL enemies.",
+        "pool": "silent",
+        "rarity": "uncommon",
+        "img_url": "https://sts2json.untapped.gg/art/relics/twisted_funnel.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/vambrace",
+        "relic_name": "vambrace",
+        "effect": "The first time you gain Block from a card each combat, double the amount gained.",
+        "pool": "colorless",
+        "rarity": "uncommon",
+        "img_url": "https://sts2json.untapped.gg/art/relics/vambrace.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/charons-ashes",
+        "relic_name": "charons-ashes",
+        "effect": "Whenever you Exhaust a card, deal 3 damage to ALL enemies.",
+        "pool": "ironclad",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/charons_ashes.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/cloak-clasp",
+        "relic_name": "cloak-clasp",
+        "effect": "At the end of your turn, gain 1 Block for each card in your Hand.",
+        "pool": "colorless",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/cloak_clasp.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/demon-tongue",
+        "relic_name": "demon-tongue",
+        "effect": "The first time you lose HP on your turn, heal HP equal to the amount lost.",
+        "pool": "ironclad",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/demon_tongue.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/emotion-chip",
+        "relic_name": "emotion-chip",
+        "effect": "If you lost HP during the previous turn, trigger the passive ability of all Orbs at the start of your turn.",
+        "pool": "defect",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/emotion_chip.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/frozen-egg",
+        "relic_name": "frozen-egg",
+        "effect": "Whenever you add a Power into your Deck, Upgrade it.",
+        "pool": "colorless",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/frozen_egg.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/gambling-chip",
+        "relic_name": "gambling-chip",
+        "effect": "At the start of each combat, discard any number of cards then draw that many.",
+        "pool": "colorless",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/gambling_chip.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/game-piece",
+        "relic_name": "game-piece",
+        "effect": "Whenever you play a Power, draw 1 card.",
+        "pool": "colorless",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/game_piece.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/girya",
+        "relic_name": "girya",
+        "effect": "You can now gain Strength at Rest Sites. (3 times max)",
+        "pool": "colorless",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/girya.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/helical-dart",
+        "relic_name": "helical-dart",
+        "effect": "Whenever you play a Shiv, gain 1 Dexterity this turn.",
+        "pool": "silent",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/helical_dart.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/ice-cream",
+        "relic_name": "ice-cream",
+        "effect": "Energy is now conserved between turns.",
+        "pool": "colorless",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/ice_cream.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/intimidating-helmet",
+        "relic_name": "intimidating-helmet",
+        "effect": "Whenever you play a card that costs 2 Energy or more, gain 4 Block.",
+        "pool": "colorless",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/intimidating_helmet.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/ivory-tile",
+        "relic_name": "ivory-tile",
+        "effect": "Whenever you play a card that costs 3 Energy or more, gain 1 Energy.",
+        "pool": "necrobinder",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/ivory_tile.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/kunai",
+        "relic_name": "kunai",
+        "effect": "Every time you play 3 Attacks in a single turn, gain 1 Dexterity.",
+        "pool": "colorless",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/kunai.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/lasting-candy",
+        "relic_name": "lasting-candy",
+        "effect": "Every other combat, your card rewards gain an additional Power.",
+        "pool": "colorless",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/lasting_candy.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/lizard-tail",
+        "relic_name": "lizard-tail",
+        "effect": "When you would die, heal to 50% of your Max HP instead (works once).",
+        "pool": "colorless",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/lizard_tail.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/lunar-pastry",
+        "relic_name": "lunar-pastry",
+        "effect": "At the end of your turn, gain 1 Star.",
+        "pool": "regent",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/lunar_pastry.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/mango",
+        "relic_name": "mango",
+        "effect": "Upon pickup, raise your Max HP by 14.",
+        "pool": "colorless",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/mango.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/meat-on-the-bone",
+        "relic_name": "meat-on-the-bone",
+        "effect": "If your HP is at or below 50% at the end of combat, heal 12 HP.",
+        "pool": "colorless",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/meat_on_the_bone.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/metronome",
+        "relic_name": "metronome",
+        "effect": "The first time you Channel 7 Orbs each combat, deal 30 damage to ALL enemies.",
+        "pool": "defect",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/metronome.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/mini-regent",
+        "relic_name": "mini-regent",
+        "effect": "The first time you spend 1 Star each turn, gain 1 Strength.",
+        "pool": "regent",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/mini_regent.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/molten-egg",
+        "relic_name": "molten-egg",
+        "effect": "Whenever you add an Attack card to your Deck, Upgrade it.",
+        "pool": "colorless",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/molten_egg.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/mummified-hand",
+        "relic_name": "mummified-hand",
+        "effect": "Whenever you play a Power, a random card in your Hand is free to play that turn.",
+        "pool": "colorless",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/mummified_hand.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/old-coin",
+        "relic_name": "old-coin",
+        "effect": "Upon pickup, gain 300 Gold.",
+        "pool": "colorless",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/old_coin.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/orange-dough",
+        "relic_name": "orange-dough",
+        "effect": "At the start of each combat, add 2 random Colorless cards into your Hand.",
+        "pool": "regent",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/orange_dough.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/paper-krane",
+        "relic_name": "paper-krane",
+        "effect": "Enemies with Weak deal 40% less damage to you rather than 25%.",
+        "pool": "silent",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/paper_krane.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/pocketwatch",
+        "relic_name": "pocketwatch",
+        "effect": "Whenever you play 3 or fewer cards during your turn, draw 3 additional cards at the start of your next turn.",
+        "pool": "colorless",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/pocketwatch.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/power-cell",
+        "relic_name": "power-cell",
+        "effect": "At the start of each combat, add 2 zero-cost cards from your Draw Pile into your Hand.",
+        "pool": "defect",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/power_cell.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/prayer-wheel",
+        "relic_name": "prayer-wheel",
+        "effect": "Normal enemies drop an additional card reward.",
+        "pool": "colorless",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/prayer_wheel.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/rainbow-ring",
+        "relic_name": "rainbow-ring",
+        "effect": "The first time you play an Attack, Skill, and Power each turn, gain 1 Strength and 1 Dexterity.",
+        "pool": "colorless",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/rainbow_ring.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/razor-tooth",
+        "relic_name": "razor-tooth",
+        "effect": "Every time you play an Attack or Skill, Upgrade it for the remainder of combat.",
+        "pool": "colorless",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/razor_tooth.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/ruined-helmet",
+        "relic_name": "ruined-helmet",
+        "effect": "The first time you gain Strength each combat, double the amount gained.",
+        "pool": "ironclad",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/ruined_helmet.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/shovel",
+        "relic_name": "shovel",
+        "effect": "You can now dig at Rest Sites to obtain a random Relic.",
+        "pool": "colorless",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/shovel.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/shuriken",
+        "relic_name": "shuriken",
+        "effect": "Every time you play 3 Attacks in a single turn, gain 1 Strength.",
+        "pool": "colorless",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/shuriken.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/stone-calendar",
+        "relic_name": "stone-calendar",
+        "effect": "At the end of turn 7, deal 52 damage to ALL enemies.",
+        "pool": "colorless",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/stone_calendar.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/sturdy-clamp",
+        "relic_name": "sturdy-clamp",
+        "effect": "Up to 10 Block persists across turns.",
+        "pool": "colorless",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/sturdy_clamp.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/the-courier",
+        "relic_name": "the-courier",
+        "effect": "The merchant no longer runs out of cards, relics, or potions and his prices are reduced by 20%.",
+        "pool": "colorless",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/the_courier.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/tough-bandages",
+        "relic_name": "tough-bandages",
+        "effect": "Whenever you discard a card during your turn, gain 3 Block.",
+        "pool": "silent",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/tough_bandages.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/toxic-egg",
+        "relic_name": "toxic-egg",
+        "effect": "Whenever you add a Skill into your Deck, Upgrade it.",
+        "pool": "colorless",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/toxic_egg.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/tungsten-rod",
+        "relic_name": "tungsten-rod",
+        "effect": "Whenever you would lose HP, lose 1 less.",
+        "pool": "colorless",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/tungsten_rod.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/unceasing-top",
+        "relic_name": "unceasing-top",
+        "effect": "Whenever you have no cards in Hand during your turn, draw a card.",
+        "pool": "colorless",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/unceasing_top.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/unsettling-lamp",
+        "relic_name": "unsettling-lamp",
+        "effect": "Each combat, the first time you play a card that Debuffs an enemy, double its effect.",
+        "pool": "colorless",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/unsettling_lamp.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/vexing-puzzlebox",
+        "relic_name": "vexing-puzzlebox",
+        "effect": "At the start of each combat, add a random card into your Hand. It costs 01 Energy.",
+        "pool": "colorless",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/vexing_puzzlebox.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/white-beast-statue",
+        "relic_name": "white-beast-statue",
+        "effect": "Potions always appear in combat rewards.",
+        "pool": "colorless",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/white_beast_statue.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/white-star",
+        "relic_name": "white-star",
+        "effect": "Elites drop an additional Rare card reward.",
+        "pool": "colorless",
+        "rarity": "rare",
+        "img_url": "https://sts2json.untapped.gg/art/relics/white_star.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/dingy-rug",
+        "relic_name": "dingy-rug",
+        "effect": "Card rewards can now contain Colorless cards.",
+        "pool": "colorless",
+        "rarity": "shop",
+        "img_url": "https://sts2json.untapped.gg/art/relics/dingy_rug.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/dollys-mirror",
+        "relic_name": "dollys-mirror",
+        "effect": "Upon pickup, obtain an additional copy of a card in your Deck.",
+        "pool": "colorless",
+        "rarity": "shop",
+        "img_url": "https://sts2json.untapped.gg/art/relics/dollys_mirror.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/dragon-fruit",
+        "relic_name": "dragon-fruit",
+        "effect": "Whenever you gain Gold, raise your Max HP by 1.",
+        "pool": "colorless",
+        "rarity": "shop",
+        "img_url": "https://sts2json.untapped.gg/art/relics/dragon_fruit.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/ghost-seed",
+        "relic_name": "ghost-seed",
+        "effect": "Strikes and Defends gain Ethereal.",
+        "pool": "colorless",
+        "rarity": "shop",
+        "img_url": "https://sts2json.untapped.gg/art/relics/ghost_seed.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/gnarled-hammer",
+        "relic_name": "gnarled-hammer",
+        "effect": "Upon pickup, Enchant up to 3 Attacks with Sharp 3.",
+        "pool": "colorless",
+        "rarity": "shop",
+        "img_url": "https://sts2json.untapped.gg/art/relics/gnarled_hammer.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/kifuda",
+        "relic_name": "kifuda",
+        "effect": "Upon pickup, Enchant up to 3 cards with Adroit.",
+        "pool": "colorless",
+        "rarity": "shop",
+        "img_url": "https://sts2json.untapped.gg/art/relics/kifuda.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/lava-lamp",
+        "relic_name": "lava-lamp",
+        "effect": "At the end of combat, Upgrade all card rewards if you took no damage.",
+        "pool": "colorless",
+        "rarity": "shop",
+        "img_url": "https://sts2json.untapped.gg/art/relics/lava_lamp.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/lees-waffle",
+        "relic_name": "lees-waffle",
+        "effect": "Upon pickup, raise your Max HP by 7 and heal all of your HP.",
+        "pool": "colorless",
+        "rarity": "shop",
+        "img_url": "https://sts2json.untapped.gg/art/relics/lees_waffle.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/membership-card",
+        "relic_name": "membership-card",
+        "effect": "50% discount on all products!",
+        "pool": "colorless",
+        "rarity": "shop",
+        "img_url": "https://sts2json.untapped.gg/art/relics/membership_card.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/miniature-tent",
+        "relic_name": "miniature-tent",
+        "effect": "You may choose any number of options at Rest Sites.",
+        "pool": "colorless",
+        "rarity": "shop",
+        "img_url": "https://sts2json.untapped.gg/art/relics/miniature_tent.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/mystic-lighter",
+        "relic_name": "mystic-lighter",
+        "effect": "Enchanted Attacks deal 9 additional damage.",
+        "pool": "colorless",
+        "rarity": "shop",
+        "img_url": "https://sts2json.untapped.gg/art/relics/mystic_lighter.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/ninja-scroll",
+        "relic_name": "ninja-scroll",
+        "effect": "At the start of each combat, add 3 Shivs into your Hand.",
+        "pool": "silent",
+        "rarity": "shop",
+        "img_url": "https://sts2json.untapped.gg/art/relics/ninja_scroll.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/orrery",
+        "relic_name": "orrery",
+        "effect": "Upon pickup, gain 5 card rewards.",
+        "pool": "colorless",
+        "rarity": "shop",
+        "img_url": "https://sts2json.untapped.gg/art/relics/orrery.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/punch-dagger",
+        "relic_name": "punch-dagger",
+        "effect": "Upon pickup, Enchant an Attack with Momentum 5.",
+        "pool": "colorless",
+        "rarity": "shop",
+        "img_url": "https://sts2json.untapped.gg/art/relics/punch_dagger.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/ringing-triangle",
+        "relic_name": "ringing-triangle",
+        "effect": "Retain your Hand on the first turn of combat.",
+        "pool": "colorless",
+        "rarity": "shop",
+        "img_url": "https://sts2json.untapped.gg/art/relics/ringing_triangle.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/royal-stamp",
+        "relic_name": "royal-stamp",
+        "effect": "Upon pickup, choose an Attack or Skill in your Deck to Enchant with Royally Approved.",
+        "pool": "colorless",
+        "rarity": "shop",
+        "img_url": "https://sts2json.untapped.gg/art/relics/royal_stamp.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/runic-capacitor",
+        "relic_name": "runic-capacitor",
+        "effect": "Start each combat with 3 additional Orb Slots.",
+        "pool": "defect",
+        "rarity": "shop",
+        "img_url": "https://sts2json.untapped.gg/art/relics/runic_capacitor.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/screaming-flagon",
+        "relic_name": "screaming-flagon",
+        "effect": "If you end your turn with no cards in your Hand, deal 20 damage to ALL enemies.",
+        "pool": "colorless",
+        "rarity": "shop",
+        "img_url": "https://sts2json.untapped.gg/art/relics/screaming_flagon.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/sling-of-courage",
+        "relic_name": "sling-of-courage",
+        "effect": "Start each Elite combat with 2 Strength.",
+        "pool": "colorless",
+        "rarity": "shop",
+        "img_url": "https://sts2json.untapped.gg/art/relics/sling_of_courage.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/the-abacus",
+        "relic_name": "the-abacus",
+        "effect": "Whenever you shuffle your Draw Pile, gain 6 Block.",
+        "pool": "colorless",
+        "rarity": "shop",
+        "img_url": "https://sts2json.untapped.gg/art/relics/the_abacus.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/toolbox",
+        "relic_name": "toolbox",
+        "effect": "At the start of each combat, choose 1 of 3 random Colorless cards and add the chosen card into your Hand.",
+        "pool": "colorless",
+        "rarity": "shop",
+        "img_url": "https://sts2json.untapped.gg/art/relics/toolbox.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/undying-sigil",
+        "relic_name": "undying-sigil",
+        "effect": "Enemies with at least as much Doom as HP deal 50% less damage.",
+        "pool": "necrobinder",
+        "rarity": "shop",
+        "img_url": "https://sts2json.untapped.gg/art/relics/undying_sigil.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/vitruvian-minion",
+        "relic_name": "vitruvian-minion",
+        "effect": "Cards containing \u201cMinion\u201d deal double damage and gain double Block.",
+        "pool": "regent",
+        "rarity": "shop",
+        "img_url": "https://sts2json.untapped.gg/art/relics/vitruvian_minion.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/wing-charm",
+        "relic_name": "wing-charm",
+        "effect": "A random card in each card reward is Enchanted with Swift 1.",
+        "pool": "colorless",
+        "rarity": "shop",
+        "img_url": "https://sts2json.untapped.gg/art/relics/wing_charm.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/darkstone-periapt",
+        "relic_name": "darkstone-periapt",
+        "effect": "Whenever you obtain a Curse, raise your Max HP by 6.",
+        "pool": "colorless",
+        "rarity": "event",
+        "img_url": "https://sts2json.untapped.gg/art/relics/darkstone_periapt.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/daughter-of-the-wind",
+        "relic_name": "daughter-of-the-wind",
+        "effect": "Whenever you play an Attack, gain 1 Block.",
+        "pool": "colorless",
+        "rarity": "event",
+        "img_url": "https://sts2json.untapped.gg/art/relics/daughter_of_the_wind.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/dream-catcher",
+        "relic_name": "dream-catcher",
+        "effect": "Whenever you Rest, you may add a card to your Deck.",
+        "pool": "colorless",
+        "rarity": "event",
+        "img_url": "https://sts2json.untapped.gg/art/relics/dream_catcher.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/ember-tea",
+        "relic_name": "ember-tea",
+        "effect": "At the start of the next 5 combats, gain 2 Strength.",
+        "pool": "colorless",
+        "rarity": "event",
+        "img_url": "https://sts2json.untapped.gg/art/relics/ember_tea.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/forgotten-soul",
+        "relic_name": "forgotten-soul",
+        "effect": "Whenever you Exhaust a card, deal 1 damage to a random enemy.",
+        "pool": "colorless",
+        "rarity": "event",
+        "img_url": "https://sts2json.untapped.gg/art/relics/forgotten_soul.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/fragrant-mushroom",
+        "relic_name": "fragrant-mushroom",
+        "effect": "Upon pickup, lose 15 HP and Upgrade 3 random cards.",
+        "pool": "colorless",
+        "rarity": "event",
+        "img_url": "https://sts2json.untapped.gg/art/relics/fragrant_mushroom.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/fresnel-lens",
+        "relic_name": "fresnel-lens",
+        "effect": "Whenever you add a card that gains Block to your Deck, Enchant it with Nimble 2.",
+        "pool": "colorless",
+        "rarity": "event",
+        "img_url": "https://sts2json.untapped.gg/art/relics/fresnel_lens.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/hand-drill",
+        "relic_name": "hand-drill",
+        "effect": "Whenever you break an enemy's Block, apply 2 Vulnerable.",
+        "pool": "colorless",
+        "rarity": "event",
+        "img_url": "https://sts2json.untapped.gg/art/relics/hand_drill.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/fake-happy-flower",
+        "relic_name": "fake-happy-flower",
+        "effect": "Every 5 turns, gain 1 Energy.",
+        "pool": "colorless",
+        "rarity": "event",
+        "img_url": "https://sts2json.untapped.gg/art/relics/fake_happy_flower.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/history-course",
+        "relic_name": "history-course",
+        "effect": "At the start of your turn, play a copy of your last played Attack or Skill.",
+        "pool": "colorless",
+        "rarity": "event",
+        "img_url": "https://sts2json.untapped.gg/art/relics/history_course.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/fake-lees-waffle",
+        "relic_name": "fake-lees-waffle",
+        "effect": "Upon pickup, heal 10% of your HP.",
+        "pool": "colorless",
+        "rarity": "event",
+        "img_url": "https://sts2json.untapped.gg/art/relics/fake_lees_waffle.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/lost-wisp",
+        "relic_name": "lost-wisp",
+        "effect": "Whenever you play a Power, deal 8 damage to ALL enemies.",
+        "pool": "colorless",
+        "rarity": "event",
+        "img_url": "https://sts2json.untapped.gg/art/relics/lost_wisp.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/fake-mango",
+        "relic_name": "fake-mango",
+        "effect": "Upon pickup, raise your Max HP by 3.",
+        "pool": "colorless",
+        "rarity": "event",
+        "img_url": "https://sts2json.untapped.gg/art/relics/fake_mango.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/maw-bank",
+        "relic_name": "maw-bank",
+        "effect": "Whenever you climb a floor, gain 12 Gold. No longer works when you spend any Gold at the shop.",
+        "pool": "colorless",
+        "rarity": "event",
+        "img_url": "https://sts2json.untapped.gg/art/relics/maw_bank.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/mr-struggles",
+        "relic_name": "mr-struggles",
+        "effect": "At the start of your turn, deal damage equal to the turn number to ALL enemies.",
+        "pool": "colorless",
+        "rarity": "event",
+        "img_url": "https://sts2json.untapped.gg/art/relics/mr_struggles.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/fake-orichalcum",
+        "relic_name": "fake-orichalcum",
+        "effect": "If you end your turn without Block, gain 3 Block.",
+        "pool": "colorless",
+        "rarity": "event",
+        "img_url": "https://sts2json.untapped.gg/art/relics/fake_orichalcum.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/pollinous-core",
+        "relic_name": "pollinous-core",
+        "effect": "Every 4 turns, draw 2 additional cards.",
+        "pool": "colorless",
+        "rarity": "event",
+        "img_url": "https://sts2json.untapped.gg/art/relics/pollinous_core.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/royal-poison",
+        "relic_name": "royal-poison",
+        "effect": "At the start of each combat, lose 4 HP.",
+        "pool": "colorless",
+        "rarity": "event",
+        "img_url": "https://sts2json.untapped.gg/art/relics/royal_poison.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/fake-snecko-eye",
+        "relic_name": "fake-snecko-eye",
+        "effect": "Start each combat Confused.",
+        "pool": "colorless",
+        "rarity": "event",
+        "img_url": "https://sts2json.untapped.gg/art/relics/fake_snecko_eye.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/fake-strike-dummy",
+        "relic_name": "fake-strike-dummy",
+        "effect": "Cards containing \u201cStrike\u201d deal 1 additional damage.",
+        "pool": "colorless",
+        "rarity": "event",
+        "img_url": "https://sts2json.untapped.gg/art/relics/fake_strike_dummy.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/sword-of-jade",
+        "relic_name": "sword-of-jade",
+        "effect": "Start each combat with 3 Strength.",
+        "pool": "colorless",
+        "rarity": "event",
+        "img_url": "https://sts2json.untapped.gg/art/relics/sword_of_jade.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/sword-of-stone",
+        "relic_name": "sword-of-stone",
+        "effect": "Transforms into a powerful Relic after defeating 5 Elites.",
+        "pool": "colorless",
+        "rarity": "event",
+        "img_url": "https://sts2json.untapped.gg/art/relics/sword_of_stone.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/tea-of-discourtesy",
+        "relic_name": "tea-of-discourtesy",
+        "effect": "At the start of the next combat, shuffle 2 Dazed into your Draw Pile.",
+        "pool": "colorless",
+        "rarity": "event",
+        "img_url": "https://sts2json.untapped.gg/art/relics/tea_of_discourtesy.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/the-boot",
+        "relic_name": "the-boot",
+        "effect": "Whenever you would deal 4 or less unblocked attack damage, increase it to 5.",
+        "pool": "colorless",
+        "rarity": "event",
+        "img_url": "https://sts2json.untapped.gg/art/relics/the_boot.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/chosen-cheese",
+        "relic_name": "chosen-cheese",
+        "effect": "At the end of combat, gain 1 Max HP.",
+        "pool": "colorless",
+        "rarity": "event",
+        "img_url": "https://sts2json.untapped.gg/art/relics/chosen_cheese.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/fake-merchants-rug",
+        "relic_name": "fake-merchants-rug",
+        "effect": "Poor imitation. Does nothing.",
+        "pool": "colorless",
+        "rarity": "event",
+        "img_url": "https://sts2json.untapped.gg/art/relics/fake_merchants_rug.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/fake-venerable-tea-set",
+        "relic_name": "fake-venerable-tea-set",
+        "effect": "Whenever you enter a Rest Site, start the next combat with an additional 1 Energy.",
+        "pool": "colorless",
+        "rarity": "event",
+        "img_url": "https://sts2json.untapped.gg/art/relics/fake_venerable_tea_set.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/wongo-customer-appreciation-badge",
+        "relic_name": "wongo-customer-appreciation-badge",
+        "effect": "Does nothing.",
+        "pool": "colorless",
+        "rarity": "event",
+        "img_url": "https://sts2json.untapped.gg/art/relics/wongo_customer_appreciation_badge.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/wongos-mystery-ticket",
+        "relic_name": "wongos-mystery-ticket",
+        "effect": "Receive 3 random Relics after 5 combats.",
+        "pool": "colorless",
+        "rarity": "event",
+        "img_url": "https://sts2json.untapped.gg/art/relics/wongos_mystery_ticket.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/blessed-antler",
+        "relic_name": "blessed-antler",
+        "effect": "Gain 1 Energy at the start of each turn. At the start of each combat, shuffle 3 Dazed into your Draw Pile.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/blessed_antler.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/blood-soaked-rose",
+        "relic_name": "blood-soaked-rose",
+        "effect": "Upon pickup, add 1 Enthralled to your Deck. Gain 1 Energy at the start of each turn.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/blood_soaked_rose.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/booming-conch",
+        "relic_name": "booming-conch",
+        "effect": "At the start of Elite combats, draw 2 additional cards.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/booming_conch.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/brilliant-scarf",
+        "relic_name": "brilliant-scarf",
+        "effect": "The 5th card you play each turn is free.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/brilliant_scarf.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/calling-bell",
+        "relic_name": "calling-bell",
+        "effect": "Upon pickup, obtain a unique Curse and 3 Relics.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/calling_bell.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/choices-paradox",
+        "relic_name": "choices-paradox",
+        "effect": "At the start of each combat, add 1 of 5 random cards into your Hand. Add Retain to the chosen card.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/choices_paradox.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/claws",
+        "relic_name": "claws",
+        "effect": "Upon pickup, Transform up to 6 cards into Maul.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/claws.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/crossbow",
+        "relic_name": "crossbow",
+        "effect": "At the start of your turn, add a random Attack into your Hand. It costs 01 Energy this turn.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/crossbow.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/cursed-pearl",
+        "relic_name": "cursed-pearl",
+        "effect": "Upon pickup, receive Greed. Gain 333 Gold.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/cursed_pearl.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/delicate-frond",
+        "relic_name": "delicate-frond",
+        "effect": "At the start of each combat, fill all empty potion slots with random potions.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/delicate_frond.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/diamond-diadem",
+        "relic_name": "diamond-diadem",
+        "effect": "Whenever you play 2 or fewer cards in a turn, take half damage from enemies.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/diamond_diadem.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/distinguished-cape",
+        "relic_name": "distinguished-cape",
+        "effect": "Upon pickup, lose 9 Max HP. Add 3 Apparitions to your Deck.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/distinguished_cape.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/driftwood",
+        "relic_name": "driftwood",
+        "effect": "You may reroll each card reward once.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/driftwood.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/dusty-tome",
+        "relic_name": "dusty-tome",
+        "effect": "Upon pickup, obtain an Ancient Card.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/dusty_tome.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/ectoplasm",
+        "relic_name": "ectoplasm",
+        "effect": "You can no longer gain Gold. Gain 1 Energy at the start of each turn.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/ectoplasm.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/electric-shrymp",
+        "relic_name": "electric-shrymp",
+        "effect": "Upon pickup, Enchant a Skill with Imbued.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/electric_shrymp.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/empty-cage",
+        "relic_name": "empty-cage",
+        "effect": "Upon pickup, remove 2 cards from your Deck.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/empty_cage.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/fiddle",
+        "relic_name": "fiddle",
+        "effect": "At the start of each turn, draw 2 additional cards. You may not draw cards during your turn.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/fiddle.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/fur-coat",
+        "relic_name": "fur-coat",
+        "effect": "Upon pickup, mark 7 random combats. Enemies in those rooms have 1 HP.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/fur_coat.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/glass-eye",
+        "relic_name": "glass-eye",
+        "effect": "Upon pickup, obtain 2 Common cards, 2 Uncommon cards, and 1 Rare card.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/glass_eye.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/glitter",
+        "relic_name": "glitter",
+        "effect": "Enchant all card rewards with Glam.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/glitter.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/golden-compass",
+        "relic_name": "golden-compass",
+        "effect": "Upon pickup, replace the Act 2 Map with a single special path.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/golden_compass.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/golden-pearl",
+        "relic_name": "golden-pearl",
+        "effect": "Upon pickup, gain 150 Gold.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/golden_pearl.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/iron-club",
+        "relic_name": "iron-club",
+        "effect": "Every 4 cards you play, draw 1 card.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/iron_club.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/jeweled-mask",
+        "relic_name": "jeweled-mask",
+        "effect": "At the start of combat put a random Power from your Draw Pile into your Hand, it's free to play.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/jeweled_mask.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/jewelry-box",
+        "relic_name": "jewelry-box",
+        "effect": "Upon pickup, add 1 Apotheosis to your Deck.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/jewelry_box.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/large-capsule",
+        "relic_name": "large-capsule",
+        "effect": "Upon pickup, obtain 2 random Relics. Add an additional Strike and Defend to your Deck.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/large_capsule.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/lava-rock",
+        "relic_name": "lava-rock",
+        "effect": "The Act 1 Boss drops 2 Relics.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/lava_rock.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/lead-paperweight",
+        "relic_name": "lead-paperweight",
+        "effect": "Upon pickup, choose 1 of 2 Colorless cards to add to your Deck.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/lead_paperweight.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/leafy-poultice",
+        "relic_name": "leafy-poultice",
+        "effect": "Upon pickup, Transform 1 of your Strikes and 1 of your Defends and lose 10 Max HP.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/leafy_poultice.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/looming-fruit",
+        "relic_name": "looming-fruit",
+        "effect": "Upon pickup, raise your Max HP by 31.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/looming_fruit.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/lords-parasol",
+        "relic_name": "lords-parasol",
+        "effect": "When you encounter the Merchant, immediately obtain EVERYTHING he sells.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/lords_parasol.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/lost-coffer",
+        "relic_name": "lost-coffer",
+        "effect": "Upon pickup, gain 1 card reward and procure 1 random potion.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/lost_coffer.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/massive-scroll",
+        "relic_name": "massive-scroll",
+        "effect": "Upon pickup, choose 1 of 3 Multiplayer Colorless Cards to add to your Deck.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/massive_scroll.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/meat-cleaver",
+        "relic_name": "meat-cleaver",
+        "effect": "You may Cook at Rest Sites.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/meat_cleaver.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/music-box",
+        "relic_name": "music-box",
+        "effect": "Create an Ethereal copy of the first Attack you play each turn.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/music_box.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/neows-torment",
+        "relic_name": "neows-torment",
+        "effect": "Upon pickup, add 1 Neow's Fury to your Deck.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/neows_torment.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/new-leaf",
+        "relic_name": "new-leaf",
+        "effect": "Upon pickup, Transform 1 card.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/new_leaf.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/nutritious-oyster",
+        "relic_name": "nutritious-oyster",
+        "effect": "Upon pickup, raise your Max HP by 11.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/nutritious_oyster.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/nutritious-soup",
+        "relic_name": "nutritious-soup",
+        "effect": "Upon pickup, Enchant all Strikes in your Deck with Tezcatara's Ember.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/nutritious_soup.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/paels-blood",
+        "relic_name": "paels-blood",
+        "effect": "At the start of your turn, draw 1 additional card.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/paels_blood.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/paels-claw",
+        "relic_name": "paels-claw",
+        "effect": "Upon pickup, Enchant all Defends with Goopy.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/paels_claw.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/paels-eye",
+        "relic_name": "paels-eye",
+        "effect": "The first time each combat you end your turn without playing cards, Exhaust your Hand, and take an extra turn.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/paels_eye.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/paels-flesh",
+        "relic_name": "paels-flesh",
+        "effect": "Gain an additional 1 Energy at the start of your 3rd turn, and every turn after that.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/paels_flesh.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/paels-growth",
+        "relic_name": "paels-growth",
+        "effect": "Upon pickup, Enchant a card with Clone.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/paels_growth.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/paels-horn",
+        "relic_name": "paels-horn",
+        "effect": "Upon pickup, add 2 Relax to your Deck.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/paels_horn.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/paels-legion",
+        "relic_name": "paels-legion",
+        "effect": "Doubles Block gained from a card, then goes to sleep for 2 turns.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/paels_legion.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/paels-tears",
+        "relic_name": "paels-tears",
+        "effect": "If you end your turn with unspent 1 Energy, gain an additional 2 Energy next turn.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/paels_tears.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/paels-tooth",
+        "relic_name": "paels-tooth",
+        "effect": "Upon pickup, remove 5 cards from your Deck. After each combat, randomly add 1 back Upgraded.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/paels_tooth.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/paels-wing",
+        "relic_name": "paels-wing",
+        "effect": "You may sacrifice card rewards to Pael. Every 2 sacrifices, obtain a Relic.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/paels_wing.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/pandoras-box",
+        "relic_name": "pandoras-box",
+        "effect": "Transform ALL Strikes and Defends.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/pandoras_box.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/philosophers-stone",
+        "relic_name": "philosophers-stone",
+        "effect": "Gain 1 Energy at the start of each turn. ALL enemies start combat with 1 Strength.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/philosophers_stone.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/pomander",
+        "relic_name": "pomander",
+        "effect": "Upon pickup, Upgrade a card.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/pomander.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/precarious-shears",
+        "relic_name": "precarious-shears",
+        "effect": "Upon pickup, remove 2 cards from your Deck and take 13 damage.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/precarious_shears.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/precise-scissors",
+        "relic_name": "precise-scissors",
+        "effect": "Upon pickup, remove 1 card from your Deck.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/precise_scissors.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/preserved-fog",
+        "relic_name": "preserved-fog",
+        "effect": "Upon pickup, remove 5 cards from your Deck. Add Folly to your Deck.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/preserved_fog.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/prismatic-gem",
+        "relic_name": "prismatic-gem",
+        "effect": "Gain 1 Energy at the start of each turn. Card rewards now contain cards from other colors.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/prismatic_gem.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/pumpkin-candle",
+        "relic_name": "pumpkin-candle",
+        "effect": "Gain 1 Energy at the start of each turn. Extinguishes at the start of Act 3.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/pumpkin_candle.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/radiant-pearl",
+        "relic_name": "radiant-pearl",
+        "effect": "At the start of each combat, add 1 Luminesce into your Hand.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/radiant_pearl.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/runic-pyramid",
+        "relic_name": "runic-pyramid",
+        "effect": "At the end of your turn, you no longer discard your Hand.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/runic_pyramid.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/sai",
+        "relic_name": "sai",
+        "effect": "At the start of your turn, gain 7 Block.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/sai.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/sand-castle",
+        "relic_name": "sand-castle",
+        "effect": "Upon pickup, Upgrade 6 random cards.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/sand_castle.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/scroll-boxes",
+        "relic_name": "scroll-boxes",
+        "effect": "Upon pickup, lose all Gold and choose 1 of 2 packs of cards to add to your Deck.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/scroll_boxes.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/sea-glass",
+        "relic_name": "sea-glass",
+        "effect": "See 15 cards from another character. Choose any number of them to add to your Deck.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/sea_glass.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/seal-of-gold",
+        "relic_name": "seal-of-gold",
+        "effect": "At the start of your turn, spend 5 Gold to gain 1 Energy.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/seal_of_gold.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/sere-talon",
+        "relic_name": "sere-talon",
+        "effect": "Upon pickup, add 2 random Curses and 3 Wishes to your Deck.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/sere_talon.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/signet-ring",
+        "relic_name": "signet-ring",
+        "effect": "Upon pickup, gain 999 Gold.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/signet_ring.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/silver-crucible",
+        "relic_name": "silver-crucible",
+        "effect": "The first 3 card rewards you see are Upgraded. The first Treasure Chest you open is empty.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/silver_crucible.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/small-capsule",
+        "relic_name": "small-capsule",
+        "effect": "Upon pickup, obtain a random Relic.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/small_capsule.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/snecko-eye",
+        "relic_name": "snecko-eye",
+        "effect": "At the start of your turn, draw 2 additional cards. Start each combat Confused.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/snecko_eye.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/sozu",
+        "relic_name": "sozu",
+        "effect": "Gain 1 Energy at the start of each turn. You can no longer obtain potions.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/sozu.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/spiked-gauntlets",
+        "relic_name": "spiked-gauntlets",
+        "effect": "Gain 1 Energy at the start of each turn. Powers cost 1 more 1 Energy.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/spiked_gauntlets.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/stone-humidifier",
+        "relic_name": "stone-humidifier",
+        "effect": "Whenever you Rest at a Rest Site, raise your Max HP by 5.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/stone_humidifier.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/storybook",
+        "relic_name": "storybook",
+        "effect": "Upon pickup, add 1 Brightest Flame to your Deck.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/storybook.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/tanxs-whistle",
+        "relic_name": "tanxs-whistle",
+        "effect": "Upon pickup, add 1 Whistle to your Deck.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/tanxs_whistle.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/throwing-axe",
+        "relic_name": "throwing-axe",
+        "effect": "The first card you play each combat is played an extra time.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/throwing_axe.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/toasty-mittens",
+        "relic_name": "toasty-mittens",
+        "effect": "At the start of your turn, Exhaust the top card of your Draw Pile and gain 1 Strength.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/toasty_mittens.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/touch-of-orobas",
+        "relic_name": "touch-of-orobas",
+        "effect": "Upon pickup, replace your starter Relic with an Ancient version.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/touch_of_orobas.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/toy-box",
+        "relic_name": "toy-box",
+        "effect": "Upon pickup, obtain 4 Wax Relics. Every 3 combats, your left-most Wax Relic will melt away.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/toy_box.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/tri-boomerang",
+        "relic_name": "tri-boomerang",
+        "effect": "Choose 3 Attacks in your Deck. Enchant them with Instinct.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/tri_boomerang.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/velvet-choker",
+        "relic_name": "velvet-choker",
+        "effect": "Gain 1 Energy at the start of each turn. You cannot play more than 6 cards per turn.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/velvet_choker.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/very-hot-cocoa",
+        "relic_name": "very-hot-cocoa",
+        "effect": "Start each combat with an additional 41 Energy.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/very_hot_cocoa.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/war-hammer",
+        "relic_name": "war-hammer",
+        "effect": "Whenever you kill an Elite, Upgrade 4 random cards.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/war_hammer.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/whispering-earring",
+        "relic_name": "whispering-earring",
+        "effect": "Gain 1 Energy at the start of each turn. Vakuu plays your first turn for you.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/whispering_earring.png"
+    },
+    {
+        "link": "https://sts2.untapped.gg/en/relics/yummy-cookie",
+        "relic_name": "yummy-cookie",
+        "effect": "Upon pickup, Upgrade 4 cards.",
+        "pool": "colorless",
+        "rarity": "ancient",
+        "img_url": "https://sts2json.untapped.gg/art/relics/yummy_cookie.png"
+    }
+]

@@ -21,20 +21,32 @@ app = Flask(__name__)
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-# Try to load cards.json to validate cards, if available
-CARDS_FILE = 'cards.json'
-VALID_CARDS = set()
+# Try to load datasets for quick O(1) lookup
+VALID_ITEMS = {}
 
-if os.path.exists(CARDS_FILE):
+if os.path.exists('cards.json'):
     try:
-        with open(CARDS_FILE, 'r') as f:
+        with open('cards.json', 'r') as f:
             cards_data = json.load(f)
-            # Add valid card slugs to a set for quick O(1) lookup
             for c in cards_data:
-                VALID_CARDS.add(c.get('card_name', ''))
-        logger.info(f"Loaded {len(VALID_CARDS)} valid cards from {CARDS_FILE}")
+                name = c.get('card_name', '')
+                if name:
+                    VALID_ITEMS[name] = {'type': 'card', 'effect': c.get('effect', '')}
+        logger.info(f"Loaded {len(cards_data)} valid cards")
     except Exception as e:
-        logger.error(f"Failed to load {CARDS_FILE}: {e}")
+        logger.error(f"Failed to load cards.json: {e}")
+
+if os.path.exists('relics.json'):
+    try:
+        with open('relics.json', 'r') as f:
+            relics_data = json.load(f)
+            for r in relics_data:
+                name = r.get('relic_name', '')
+                if name:
+                    VALID_ITEMS[name] = {'type': 'relic', 'effect': r.get('effect', '')}
+        logger.info(f"Loaded {len(relics_data)} valid relics")
+    except Exception as e:
+        logger.error(f"Failed to load relics.json: {e}")
 
 # Fetch the Telegram bot token from the environment variable
 BOT_TOKEN = os.environ.get('TELEGRAM_BOT_TOKEN')
@@ -46,8 +58,10 @@ if not BOT_TOKEN:
 # Initialize the bot
 bot = telebot.TeleBot(BOT_TOKEN)
 
-# Base URL for the github raw content
-BASE_URL = "https://raw.githubusercontent.com/le-michael/slayfall/refs/heads/main/card_images_full/"
+# Base URLs for the github raw content
+GITHUB_RAW_BASE = "https://raw.githubusercontent.com/le-michael/slayfall/refs/heads/main/"
+CARD_BASE_URL = f"{GITHUB_RAW_BASE}card_images_full/"
+RELIC_BASE_URL = f"{GITHUB_RAW_BASE}relic_images_full/"
 
 # Regex pattern to match [[ card name ]] or [[ card name+ ]]
 # Examples: 
@@ -125,27 +139,34 @@ def handle_message(message):
         # Normalize to internal representation
         slug = normalize_card_name(raw_name, is_upgraded)
 
-        # Validate against known cards if cards.json is loaded successfully
-        if VALID_CARDS and slug not in VALID_CARDS:
-            matches_found = difflib.get_close_matches(slug, VALID_CARDS, n=1, cutoff=0.6)
+        # Validate against known items
+        if VALID_ITEMS and slug not in VALID_ITEMS:
+            matches_found = difflib.get_close_matches(slug, VALID_ITEMS.keys(), n=1, cutoff=0.6)
             if not matches_found:
-                bot.reply_to(message, f"Card not found: `{slug}`", parse_mode='Markdown')
+                bot.reply_to(message, f"Item not found: `{slug}`", parse_mode='Markdown')
                 continue
             else:
-                closest_slug = matches_found[0]
-                slug = closest_slug
+                slug = matches_found[0]
 
-        # Construct Image URL based on upgraded state
-        suffix = "-upgraded" if is_upgraded else ""
-        image_url = f"{BASE_URL}{slug}{suffix}.png"
+        item = VALID_ITEMS.get(slug) if VALID_ITEMS else None
+        item_type = item['type'] if item else 'card' # default fallback
+        effect = item['effect'] if item else ''
         
-        logger.info(f"Adding card: {slug} (Upgraded: {is_upgraded}) to media group.")
+        caption = None
+        if item_type == 'relic':
+            image_url = f"{RELIC_BASE_URL}{slug}.png" # Relics do not use upgraded suffix
+            caption = effect
+            logger.info(f"Adding relic: {slug} to media group.")
+        else:
+            suffix = "-upgraded" if is_upgraded else ""
+            image_url = f"{CARD_BASE_URL}{slug}{suffix}.png"
+            logger.info(f"Adding card: {slug} (Upgraded: {is_upgraded}) to media group.")
         
         try:
             processed_image = fetch_and_process_image(image_url)
             # InputMediaPhoto requires the name or bytes stream
             media_group.append(
-                InputMediaPhoto(media=processed_image)
+                InputMediaPhoto(media=processed_image, caption=caption)
             )
         except Exception as e:
             logger.error(f"Failed to process image for {slug}: {e}")

@@ -48,6 +48,53 @@ def scrape_cards_json(json_path="cards.json"):
         # Avoid getting rate limited by their backend
         time.sleep(1)
 
+    print("Step 1.5/2: Scraping detailed card info...")
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+    
+    def fetch_card_details(card):
+        try:
+            res = requests.get(card['link'], headers=headers, timeout=10)
+            res.raise_for_status()
+            detail_soup = BeautifulSoup(res.text, 'html.parser')
+            
+            # The effect text is conveniently stored in the meta description
+            meta = detail_soup.find('meta', property='og:description') or detail_soup.find('meta', attrs={'name': 'description'})
+            desc = meta['content'] if meta else ''
+            
+            effect = ""
+            if ": " in desc:
+                effect = desc.split(": ", 1)[1]
+            card['effect'] = effect
+            
+            # Stats like Character, Type, Cost, Rarity are stored under standard labels
+            labels = detail_soup.find_all(string=lambda t: t and t.strip() in ['Character', 'Type', 'Cost', 'Rarity'])
+            for l in labels:
+                sibling = l.parent.find_next_sibling()
+                if sibling:
+                    key = l.strip().lower()
+                    val = sibling.get_text(strip=True).lower()
+                    if key == 'cost':
+                        val = sibling.get_text(strip=True)  # keep cost casing
+                    card[key] = val
+                    
+            # Upgraded effect details
+            upg = detail_soup.find('div', class_=lambda c: c and 'upgradeDetails' in c)
+            card['upgraded_effect'] = upg.get_text(separator=' ', strip=True) if upg else ""
+            
+        except Exception as e:
+            print(f"Failed to fetch details for {card['card_name']}: {e}")
+        return card
+
+    completed = 0
+    total = len(cards_data)
+    with ThreadPoolExecutor(max_workers=20) as executor:
+        futures = {executor.submit(fetch_card_details, card): card for card in cards_data}
+        for future in as_completed(futures):
+            completed += 1
+            c = futures[future]
+            if completed % 20 == 0 or completed == total:
+                print(f"Fetched details for {c['card_name']} ({completed}/{total})...")
+
     with open(json_path, "w", encoding="utf-8") as f:
         json.dump(cards_data, f, indent=4)
         
