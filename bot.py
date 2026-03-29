@@ -201,13 +201,9 @@ if __name__ == '__main__':
         webhook_url = f"https://{fly_app}.fly.dev/{BOT_TOKEN}"
         logger.info(f"Detected Fly environment. Setting webhook URL to: {webhook_url}")
         
-        bot.remove_webhook()
-        bot.set_webhook(url=webhook_url)
-        
         # Start Flask server
         app.run(host='0.0.0.0', port=8080)
     else:
         # Local development fallback
         logger.info("No FLY_APP_NAME detected. Starting local infinity polling...")
-        bot.remove_webhook()
         bot.infinity_polling()
